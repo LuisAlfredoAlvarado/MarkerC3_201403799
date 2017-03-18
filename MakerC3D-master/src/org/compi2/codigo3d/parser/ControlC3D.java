@@ -25,6 +25,9 @@ public class ControlC3D {
     public static String generaTemp(){
         return "t$"+temp++;
     }
+    public static String generaETQ(){
+        return "l"+temp++;
+    }
     
     /**
      * Agrega la sentencia que recibe como parámetro a la cadena de código
